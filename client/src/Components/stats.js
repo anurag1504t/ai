@@ -51,7 +51,7 @@ const Stats = () => {
                 <>
                     {
                         tags.map(tag => {
-                        let color = tag.length > 5 ? 'geekblue' : 'green';
+                        let color = tag.length > 5 ? 'geekblue' : 'geekblue';
                         if (tag === 'loser') {
                             color = 'volcano';
                         }

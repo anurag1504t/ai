@@ -104,7 +104,7 @@ const Dashboard=()=>{
 
     return (
         <div className="dashboard">
-            <h1>Dashboard</h1>
+            <h3>Dashboard</h3>
             <hr/>
             <div className='dashboard-charts container'>
                 <div className='row'>
@@ -160,7 +160,7 @@ const Dashboard=()=>{
                 </div>
             </div>
             <div className="dashboard-college-list">
-                <h1>Colleges</h1>
+                <h3>Colleges</h3>
                 <hr/>
                 {
                     details.length?

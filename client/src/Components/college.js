@@ -74,7 +74,7 @@ const Student=()=>{
                 <>
                     {
                         tags.map(tag => {
-                            let color = tag.length > 5 ? 'geekblue' : 'green';
+                            let color = 'geekblue';
                             if (tag === 'loser') {
                                 color = 'volcano';
                             }

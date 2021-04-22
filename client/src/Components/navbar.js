@@ -2,9 +2,11 @@ import { Link } from 'react-router-dom'
 function Navbar() {
     return (
         <div className="stats-main">
+            <Link to="/dashboard">
             <div className="navbar-header">
-                <h6 style={{color: 'black'}} className="navbar-header-oneshot"><Link to="/dashboard">OneShot.ai</Link></h6>
+                <h6 style={{color: 'floralwhite'}} className="navbar-header-oneshot">OneShot.ai</h6>
             </div>
+            </Link>
         </div>
     )
 }
