@@ -108,7 +108,7 @@ const Dashboard=()=>{
             <hr/>
             <div className='dashboard-charts container'>
                 <div className='row'>
-                    <div>
+                    <div className='col-sm-10 col-md-6 col-lg-6 col-xl-6'>
                         {
                             statecollege.length?
                             <Chart
@@ -132,7 +132,7 @@ const Dashboard=()=>{
                             <Loading />
                         }
                     </div>
-                    <div>
+                    <div className='col-sm-10 col-md-6 col-lg-6 col-xl-6'>
                         {
                             coursecollege.length?
                             <Chart
