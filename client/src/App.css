@@ -1,0 +1,83 @@
+.dashboard {
+  background-color:#F0F0F0;
+  padding: 2%;
+}
+
+.dashboard-charts {
+  padding: 2%;
+  min-height: 70vh;
+}
+
+.dashboard-college-list {
+  padding-top: 40px;
+}
+
+.navbar-header {
+  background-color: #d0e1e1;
+  padding: 20px;
+}
+
+.navbar-header-oneshot {
+  padding: 20px;
+  font-family: monospace, monospace;
+  /* color: floralwhite; */
+  font-size: 50px;
+}
+
+.college-stats-state-wise {
+  background-color:#F0F0F0;
+  padding: 2%;
+}
+
+.students-branch-wise {
+  background-color:#F0F0F0;
+  padding: 2%;
+}
+
+.college-details-all {
+  background-color:#F0F0F0;
+  padding: 2%;
+}
+
+.college-profile {
+  padding: 2%;
+}
+
+.student-profile-all {
+  min-height: 90vh;
+  background-color:#F0F0F0;
+  padding: 2%;
+    
+}
+
+.student-profile-heading {
+  font-size: 50px !important;
+  font: monospace;
+}
+
+.students-profile-body {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important; 
+}
+
+
+.bio{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:2%;
+  font-weight: 300;
+}
+
+.tb{
+  max-width: 600px;
+}
+.db {
+  transition: 0.5s;
+
+}
+.db:hover {
+  background-color:#272626;
+  color:white;
+}
