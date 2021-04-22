@@ -90,6 +90,7 @@ const Stats = () => {
     return (
         <div className="college-stats-state-wise">
             <h1 className="header-colleges-stats">Colleges: {userid.slice(1)}</h1>
+            <hr/>
             {
                 details.length?
                 <div><Table scroll={{ x: 700 }} dataSource={details} onRow={(record, rowIndex) => {

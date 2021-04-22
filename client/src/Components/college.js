@@ -132,7 +132,7 @@ const Student=()=>{
             <div>
                 {details.name?
                 <div>
-                    <div className="student-profile-heading">College Profile: {details.name}</div>
+                    <h3>College Profile: {details.name}</h3>
                     <hr/>
                     <div className="college-profile">
                         <table className='table table-hover tb'>
@@ -147,24 +147,14 @@ const Student=()=>{
                             } </td> </tr>
                             </tbody>                            
                         </table>
-                        {/* <div>College ID: {details.id}</div>
-                        <div>Number Of Students: {details.numberStudents}</div>
-                        <div>Year of Establishment: {details.year}</div>
-                        <div>Courses: 
-                            {
-                                details.courses?details.courses.map(item=>
-                                    <Tag color='#2b3235' key={item}>{item}</Tag>
-                                ):""
-                            }
-                        </div> */}
                     </div>
-                    <hr/>
                 </div>
                 :
                 <Loading />
                 }
             </div>
             <h3>Similar Colleges</h3>
+            <hr/>
             {
             simClg.length?
             <div>
@@ -178,6 +168,7 @@ const Student=()=>{
             <Loading />
             }
             <h3>Students</h3>
+            <hr/>
             {
             studetails.length?
             <div>

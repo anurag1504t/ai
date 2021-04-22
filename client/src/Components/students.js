@@ -1,5 +1,5 @@
-import React,{ useState, useEffect} from 'react'
-import {Link, useParams} from 'react-router-dom'
+import React, { useState, useEffect } from 'react'
+import { Link, useParams } from 'react-router-dom'
 import {serverurl} from '../config'
 import Loading from './loading'
 import { Tag } from 'antd';
@@ -22,20 +22,9 @@ const Student=()=>{
             <div>                
                 {details.name?
                 <div className="students-profile-body">
-                    <div className="student-profile-heading">Student Profile: {details.name}</div>
+                    <div>Student Profile: {details.name}</div>
                     <hr/>
                     <div className="student-profile">
-                        {/* <div className="profile-item">Roll Number:</div><div className="profile-value">{details.id}</div>
-                        
-                        <div>Branch:                {details.branch}</div>
-                        <div>Year of Enrolment:     {details.year}</div>
-                        <div>Skills: 
-                            {
-                                details.skills?details.skills.map(item=>
-                                    <Tag color='#66f' key={item}>{item}</Tag>
-                                ):""
-                            }
-                        </div> */}
                         <table className='table table-hover tb'>
                             <tbody>
                                 <tr><td>Name</td> <td>{details.name}</td> </tr>
